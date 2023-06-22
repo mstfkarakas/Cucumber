@@ -50,7 +50,7 @@ public class ExcelFile {
         FileOutputStream fos = new FileOutputStream(filePath);
         workbook.write(fos);
 
-        //We have created a method for writing in an excel file.
+        //We have created a method for writing in an Excel file.
         ReusableMethods.writeExcelFileSayfa1(1,3,"Ali");
 
     }
